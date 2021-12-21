@@ -6,7 +6,14 @@ Matkul : Web Framework \
 
 
 ### Page yang telah dibuat
-- home scrolldown
+- Halaman login Pengguna dan admin
+- Tampilan home pengguna
+- Tampilan absensi untuk pengguna
+- Tampilan edit profil untuk pengguna
+- Tampilan project di halaman pengguna
+- Tampilan home admin
+- Tampilan data login atau pengguna di halaman admin
+- Tampilan data absensi di halaman admin
 
 
 ### Requirement

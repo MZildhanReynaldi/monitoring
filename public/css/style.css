@@ -1,0 +1,43 @@
+    body {
+        background:linear-gradient(to right, #93329E, #440A67);;
+    }
+
+#card {
+    background: white;
+    border-right:solid 40px;
+    border-color: #950101;
+    height: 370px;
+    margin: 6rem auto 8.1rem auto;
+    width: 550px;
+}
+
+#card-content {
+    padding: 12px 44px;
+    padding-top: 20px;
+}
+#card-title {
+    font-family: "Raleway Thin", sans-serif;
+    color: #012443;
+    letter-spacing: 1,5px; 
+    text-align: left;
+    padding-top: 15px;
+}
+
+
+.form {
+    font-family: sans-serif;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 45px;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    color: white;
+
+
+}
+
+

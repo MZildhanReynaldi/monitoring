@@ -1,0 +1,292 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background: #e8e8e8;
+}
+header {
+    position:fixed;
+    background: #B61919;
+    padding-left: 50px;
+    width: 100%;
+    height: 70px;
+    margin-top: -90px;
+    z-index: 10;
+}
+
+
+.sisi_kiri h3{
+    color: white;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.logout_btn{
+    padding: 10px;
+    padding-left: 30px;
+    text-decoration: none;
+    float: right;
+    margin-top: -40px;
+    margin-right: 40px;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    border-left: solid 2px;
+    border-color: white;
+    transition: 0.5s;
+    transition-property: color;
+}
+
+.logout_btn:hover{
+    color: #012443;
+}
+
+.sidebar{
+    background: #012443;
+    margin-top: -20px;
+    padding-top: 30px;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    transition: 0.5s;
+    transition-property: left;
+}
+
+.sidebar .foto_profil{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.sidebar h4{
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.sidebar a{
+    color: whitesmoke;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-bottom: solid 0.5px;
+    border-color: white;
+    transition: 0.5s;
+    transition-property: background;
+}
+
+.sidebar a:hover{
+    background: #B61919;
+}
+
+.sidebar i{
+    padding-right: 10px;
+}
+
+label #sidebar_btn{
+    z-index: 1;
+    color: whitesmoke;
+    position: fixed;
+    cursor: pointer;
+    left: 300px;
+    font-size: 20px;
+    margin: 5px 0;
+    transition: 0.5s;
+    transition-property: color;
+}
+
+label #sidebar_btn:hover{
+    color: rgb(10, 10, 85);
+}
+
+#check:checked ~ .sidebar{
+    left: -190px;
+}
+
+#check:checked ~ .sidebar a span{
+    display: none;
+}
+
+#check:checked ~ .sidebar a{
+    font-size: 20px;
+    margin-left: 170px;
+    width: 80px;
+}
+
+#check{
+    display: none;
+}
+
+.judul_page{
+    position: static;
+    margin-top: 90px;
+    margin-left: 270px;
+    width: 94%;
+    background: rgb(255, 255, 255);
+    border-left: solid 50px;
+    border-color: #B61919;
+    transition: 0.5s;
+    transition-property: margin-left;
+}
+
+.judul_page h3{
+    color: black;
+    margin: 0;
+    padding: 20px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+#check:checked ~ .judul_page{
+    margin-left: 80px;
+}
+
+.konten{
+    position: static;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 270px;
+    width: 94%;
+    background: white;
+    transition: 0.5s;
+    transition-property: margin-left;
+}
+
+.konten h3{
+    font-size: 20px;
+    margin: 0;
+    color: whitesmoke;
+    padding: 20px;
+    padding-left: 30px;
+    background: #B61919;
+}
+
+#check:checked ~ .konten{
+    margin-left: 80px;
+}
+
+.konten .row{
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.konten .row img{
+    height: 200px;
+}
+
+.konten .card{
+    margin-bottom: 40px;
+    position: static;
+    border: solid 0.5px;
+    border-color: gainsboro;
+    cursor: pointer;
+    transition: 0.5s;
+    transition-property: background;
+}
+
+.konten .card-title a{
+    font-size: 15px;
+    text-decoration: none;
+    color: navy;
+}
+
+.card:hover{
+    background: #B61919;
+}
+
+/* PAGE PENGGUNA */
+.konten .table{
+    text-align: center;
+}
+
+.konten .table .thead th{
+    color: whitesmoke;
+    border: solid 3px;
+    border-color: #012443;
+    background: #B61919;
+}
+
+.konten .table tbody td, .konten .table tbody th{
+    border: solid 3px;
+    border-color: #012443;
+    background: gainsboro;
+}
+
+.konten .table tbody td img{
+    height: 100px;
+}
+
+.tambah{
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.d-flex{
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.d-flex button{
+    display: none;
+}
+
+
+/* Modal Form (pop up) */
+.modal-content .modal-body .photo_modal{
+    width: 120px;
+    height: 120px;
+    margin-left: 35%;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+
+.modal-content .modal-body .mb-3 .form-control{
+    background-color: lightgrey;
+}
+
+/* PAGE BERANDA */
+/* Carousel */
+
+.karusel {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 270px;
+    width: 94%;
+    transition: 0.5s;
+    transition-property: margin-left;
+}
+
+#check:checked~.karusel {
+    margin-left: 80px;
+}
+
+.karusel .carousel-inner {
+    height: 400px !important;
+}
+
+/* Footer */
+.footer {
+    position: static;
+    margin-left: 270px;
+    width: 94%;
+    transition: 0.5s;
+    transition-property: margin-left;
+}
+
+.footer .text-center {
+    margin-left: -1000px;
+}
+
+#check:checked~.footer {
+    margin-left: 80px;
+}
+

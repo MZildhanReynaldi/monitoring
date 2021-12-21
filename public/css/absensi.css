@@ -1,0 +1,101 @@
+/* Absen */
+
+.absen .absencard {
+    position: static;
+    margin-top: 20px;
+    margin-left: 270px;
+    width: 70%;
+    background: white;
+    transition: 0.5s;
+    transition-property: margin-left;
+    padding-bottom: 7%;
+    margin-bottom: 2%;
+}
+
+
+
+
+.absen .card-header {
+    font-size: 20px;
+    margin: 0;
+    color: whitesmoke;
+    padding: 20px;
+    padding-left: 30px;
+    background: red;
+}
+
+#check:checked~.absen .absencard {
+    margin-left: 80px;
+}
+
+/* Absen PL */
+
+.konten h4 {
+    font-size: 20px;
+    margin: 0;
+    color: black;
+    padding: 20px;
+    padding-left: 20px;
+
+}
+
+.konten .form-check {
+    color: black;
+    padding-left: 15%;
+    margin-top: -44px;
+
+}
+
+.konten .formcontrol1 {
+    padding-left: 12%;
+    margin-top: -70px;
+
+}
+
+.konten .absenbtn {
+    margin-left: 14%;
+}
+
+/* Rekap Absen Admin */
+
+.konten .cetakbtn {
+    width: 10%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+
+.konten .search {
+    width: 30%;
+    margin-left: 70%;
+    margin-top: -38px;
+}
+
+/*Tabel Rekap */
+
+.konten .tbrekap {
+    text-align: center;
+}
+
+.konten .tbrekap .thead th {
+    color: whitesmoke;
+    border: solid 3px;
+    background: red;
+    border-color: navy;
+}
+
+.konten .tbrekap tbody td,
+.konten .tbrekap tbody th {
+    border: solid 3px;
+    border-color: navy;
+
+}
+
+.konten .tbrekap tbody td img {
+    height: 100px;
+}
+
+.konten .tablebtn {
+    margin-left: 5px;
+    margin-right: 5px;
+}
